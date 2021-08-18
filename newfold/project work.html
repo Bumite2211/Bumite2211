@@ -1,0 +1,129 @@
+<!doctype html>
+<html  lang="en">
+<head>
+    <meta chaset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Personal portfolio</title>
+    </head>
+    <link rel="stylesheet" href="stylesheet" href="style.css">
+    <style>
+        body{
+            background: url("mee.jpg") no-repeat;
+            background-size: cover;
+        }
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }          
+       /* navbar section*/
+        .navbar {
+            border-radius: 0rem;
+            display:flex;
+            z-index: 999;
+            justify-content: center;
+            align-items: center; 
+            position:sticky;
+            top: 0in;
+        }
+        .navbar ul{
+         display:flex;
+         list-style:none;
+         margin:30px;   
+        }
+        .navbar ul li{
+            font-family:century;
+            font-size:1.5rem;
+            font-weight: bolder;
+        }
+        .navbar ul li a{
+            text-decoration:red;
+            color:palevioletred;
+            padding:10px 25px;
+            transition: all .5s ease;
+        }
+        .navbar ul li a:hover{
+            background-color:brown;
+            color:blanchedalmond;
+            box-shadow: paleturquoise;
+             transition: cubic-bezier();
+            
+             
+    
+    
+        }
+        .home::before{
+            content:"";
+            position:absolute;
+            top:30px;
+            right: 50px;
+            background
+            height: 500px;
+            width:90%
+            z-index:-1;
+            opacity:.8;
+        }
+        
+            
+        
+        
+        .mee{
+            border-radius: 30px;
+            font-size: 35px;
+            font-weight:600;
+        }
+        .mee span{
+            color:black;
+        }
+
+        
+        #pic{
+            display:flex;
+        }
+        #pic img{
+            width:375px;
+            height:200px;
+
+        }
+        #intro{
+            display:flex;
+            flex-direction:column;
+            text-align:justify;
+            padding: 10px;
+        }
+        #intro h2[
+            font-size:2rem;
+            margin-bottom:20px;
+        ]
+        
+        
+
+/*contact section*/
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    background-color:orange;
+
+
+
+
+}
+    </style>
+    
+    <body>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+             <li><a href="picture.html">PICTURE GALLERY</a></li>
+             <li><a href="contact.html">CONTACT ME</a> </li>
+            </nav>
+            </ul>
+    
+        
+        </div>
+        <div class="mee"> <a href="#">Portfo<span>lio.</span></a></div> 
+    </body>
+    </html>

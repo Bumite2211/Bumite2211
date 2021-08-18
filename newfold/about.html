@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>project</title>
+        <style>
+            body{
+             background-color:black;
+             color:brown;
+             text-align: center;
+            }
+             /*About section*/
+             section{
+               padding:100px,0;
+             }
+        .about{
+            display:flex;
+            flex-direction:column;
+            box-sizing:border-box;
+            padding:50px;
+            margin:bottom:50px;
+            font-family: 'Poppins','sans-serif';
+        }
+        .headings{
+            text-align:center;
+            font-family : 'Ubuntu','sans-serif';
+            font-size:40px;
+            font: weight 500px;
+            margin-bottom:60px;
+            padding-bottom:20px;
+        }
+       .headings::before{
+             content:"";
+             position:absolute;
+             bottom: 0px;
+             left: 50px;
+             width: 150px;
+             height: 3px;
+             background: blue;
+             transform: translateX(-50);
+         }
+        
+         
+         }
+         .about-content{
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            justify-content: :space-between;
+         }
+        .about-content  .left  img{
+             height: 400px;
+             width: 400px;
+             object-fit:cover;
+             border-radius: 6px;
+        }
+               .column-left{
+                 width:45%
+             }
+               .column-right{
+                 width:55%
+             }
+             .text{
+                 font: size 25px;
+                 font-weight: 600;
+                 margin-bottom: 10px
+             }
+             .text span{
+                 color:whitesmoke;
+             }
+             .pp{
+                 display:inline-block;
+                 background:wheat;
+                 color:chartreuse;
+                 font-size:20px;
+                 padding:10px 30px;
+                 margin-top:20px;
+                 border-radius: 6px;
+                 border:2px solid crimson;
+                 transition: all 0.3 ease;
+
+             }
+             .pp:hover{
+               color:aquamarine;
+               background: none;  
+             }
+
+    
+        
+
+    
+        
+        </style>
+    </head>
+    <body>
+        <!--about section start-->
+<section id="about" id="about">
+    <div class="max">
+        <h1 class="headings">ABOUT ME</h1>
+  <div class="about-content">
+  <div class="column-left">
+        <img src="ebony.jpg" alt="">
+        </div>
+<div class="column-right">
+    <div class="text">I am Oluwabunmi, and i am a<span>Developer</span></div>
+    <p></p>
+    
+   <p class="pp"><a href="#">Download cv</a></p>
+    </div>
+  </div>
+  <p>A computer programmer, sometimes called a software developer,<br> a programmer or more recently a coder,<br> is a person who creates computer software.<br> The term computer programmer can refer to a specialist in one area of computers or to a generalist who writes code for many kinds of software.
+</p>
+</section>
+        </div>  
+    </body>
+</html>
