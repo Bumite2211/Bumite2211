@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html>
+<head>
+       <title>BUMITE CATERING</title>
+       <style>
+#bunmi{
+text-align:center;
+border-radius: initial;
+background-color: lightcoral;
+backgrou
+}
+#num{
+       text-align:left;
+}
+#name{
+       text-align:right;
+}
+#babe{
+       width:900px;
+       border-radius:flex ;
+       float:right;
+       margin:10px auto;
+}
+#babe ul li{
+       float:left;
+       margin:10px;
+}
+#food{
+       float:right;
+}
+
+       </style>
+</head>
+<body>
+       <div id="bunmi">
+      <h1>BUMITE<br> KITCHEN</h1>
+     <hr>
+     <p>Continental and Local dishes</p>
+       <div id="babe">
+       <ul>
+       <li><a href="#homepage">Homepage</a></li>
+       <li><a href="#food">Food catalogue</a></li>
+       <li><a href="#delivery option">delivery</a></li>
+       <li><a href="#pick">contact me.</a></li>
+       </ul>
+       </div>
+<div id="homepage">
+
+
+</div>
+<section>
+<!--food content-->
+       <div id="food">
+     <img src="jolof.jpg">
+     <img src="semo.jpg">
+     <img src="pepper soup.jpg">
+     </div>
+</section>
+     <form>
+            <input type="button" value="Go back!" onclick="history.back()">
+     </form>
+     <section>
+            <!--delivery option-->
+     <div id="delivery option">
+            <p>Home delively</p>
+            <p>take away</p>
+     </div>
+     </section>
+     <form>
+            <input type="button" value="Go back" onclick="history.back()">
+     </form>
+     <h2>E X T R A S</h2>
+     <p id="me"></p>
+<button type="btn" onclick="myfunction()">CAKES</button><br>
+<p id="mine"></p>
+<button type="btn" onclick="secondfunction()">SMALL CHOPS</button><br>
+ <p id="yes"></p>
+       <button type="btn" onclick="thirdfunction()">SHAWARMA</button><br>
+        <p id="no"></p>
+       <button type="btn" onclick="firstfunction()">BURGER</button><br>
+       <p id="ney"></p>
+       <button type="btn" onclick="lastfunction()">SMOOTHIES</button>
+     
+     <p id="num">07032678286</p>
+     <p id="name">oluwatomisin.tosino@gmail.com</p>
+     </div>
+     <script>
+             function myfunction(){
+                    document.getElementById("me").innerHTML="<img src=recipe.jpg>.";
+                  }
+                  function secondfunction(){
+                         document.getElementById("mine").innerHTML="<img src=small.jpg><img src=chops.jpg>.";
+                  }
+       function thirdfunction(){
+              document.getElementById("yes").innerHTML="<img src=shawa.jpg>.";
+       }
+       function firstfunction(){
+              document.getElementById("no").innerHTML="<img src=burger.jpg>.";
+       }
+       function lastfunction(){
+              document.getElementById("ney").innerHTML="<img src=smooth.jpg>.";
+       }
+     </script>
+     </body>
+     </html>

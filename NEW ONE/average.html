@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>toy</title>
+    <body>
+    <h1>Five boys with different ages of 6,7,8,9,2.</h1>
+    <p id="sum"></p>
+    <p id="average"></p>
+    <button type='button' onclick="document.getElementById('sum').style display='none'">disappear</button>
+    <button type='button' onclick="document.getElementById('sum').style display='black'">appear</button>
+ <h2>find the value for x in this equation </h2>
+ <p id="value"></p>
+ <p id="hi"></p>
+    <script>
+    boy1=6;
+    boy2=7;
+    boy3=8;
+    boy4=9;
+    boy5=2;
+    sum=boy1+boy2+boy3+boy4+boy5;
+    average=sum/5
+    
+    document.getElementById("sum").innerHTML="This is the sum of the ages"+sum;
+    document.getElementById("average").innerHTML="This is there average"+average;
+
+        a=2;
+        b=4;
+        c=3;
+        let minus-b=-b;
+        let b-sqd=b**2;
+        let ac4=4*a*c;
+        let a2=2*a;
+        let sub=b-sqd-ac4;
+        let squ-root=sub**0.5;
+        let ans1=(minus-b+squ-root)/a2;
+        let ans2=(minus-b-squ-root)/a2;
+    
+        document.getElementById("value").innerHTML="this is the value of x " + ans1;
+        document.getElementById("hi").innerHTML="this is the value of x " + ans2;
+
+    </script>
+    </body>
+    </head>
+    </html>
